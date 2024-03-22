@@ -21,7 +21,7 @@ attrs==22.2.0 \
     #   glom
     #   jsonschema
     #   pytest
-awscli==1.27.61 \
+awscli==1.27.90 \
     --hash=sha256:3dc5f45ceef44093cb7802c3ebb47af8873967ea393024c3faf8c9124c449f59 \
     --hash=sha256:5a5fa41b5e250acab34e6e6f0a4bc1f3ffc4531056a2e798fa41d87a4c1ea390
     # via -r requirements.in
@@ -29,7 +29,7 @@ babel==2.9.1 \
     --hash=sha256:ab49e12b91d937cd11f0b67cb259a57ab4ad2b59ac7a3b41d6c06c0ac5b0def9 \
     --hash=sha256:bc0c176f9f6a994582230df350aa6e05ba2ebe4b3ac317eab29d9be5d2768da0
     # via sphinx
-black==23.1.0 \
+black==24.3.0 \
     --hash=sha256:0052dba51dec07ed029ed61b18183942043e00008ec65d5028814afaab9a22fd \
     --hash=sha256:0680d4380db3719ebcfb2613f34e86c8e6d15ffeabcf8ec59355c5e7b85bb555 \
     --hash=sha256:121ca7f10b4a01fd99951234abdbd97728e1240be89fde18480ffac16503d481 \
@@ -162,7 +162,7 @@ contextlib2==21.6.0 \
     --hash=sha256:3fbdb64466afd23abaf6c977627b75b6139a5a3e8ce38405c5b413aed7a0471f \
     --hash=sha256:ab1e2bfe1d01d968e1b7e8d9023bc51ef3509bba217bb730cee3827e1ee82869
     # via -r requirements.in
-cryptography==39.0.0 \
+cryptography==42.0.4 \
     --hash=sha256:1a6915075c6d3a5e1215eab5d99bcec0da26036ff2102a1038401d6ef5bef25b \
     --hash=sha256:1ee1fd0de9851ff32dbbb9362a4d833b579b4a6cc96883e8e6d2ff2a6bc7104f \
     --hash=sha256:407cec680e811b4fc829de966f88a7c62a596faa250fc1a4b520a0355b9bc190 \
@@ -204,7 +204,7 @@ dj-database-url==1.2.0 \
     --hash=sha256:5c2993b91801c0f78a8b19e642b497b90831124cbade0c265900d4c1037b4730 \
     --hash=sha256:b23b15046cb38180e0c95207bcc90fe5e9dbde8eef16065907dd85cf4ca7036c
     # via -r requirements.in
-django==3.2.18 \
+django==3.2.25 \
     --hash=sha256:08208dfe892eb64fff073ca743b3b952311104f939e7f6dae954fe72dcc533ba \
     --hash=sha256:4d492d9024c7b3dfababf49f94511ab6a58e2c9c3c7207786f1ba4eb77750706
     # via
@@ -343,7 +343,7 @@ isoweek==1.3.3 \
     --hash=sha256:73f3f7bac443e05a3ab45c32a72048b0c4f26d53d81462ec4b142c7581d3ffe8 \
     --hash=sha256:d3324c497d97f1534669de225ec877964222e4cc773a4a99063086f7a4e342b6
     # via -r requirements.in
-jinja2==3.1.2 \
+jinja2==3.1.3 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852 \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
     # via
@@ -445,7 +445,7 @@ lxml==4.9.2 \
     # via
     #   -r requirements.in
     #   pyquery
-markdown-it-py==2.1.0 \
+markdown-it-py==2.2.0 \
     --hash=sha256:93de681e5c021a432c63147656fe21790bc01231e0cd2da73626f1aa3ac0fe27 \
     --hash=sha256:cf7e59fed14b5ae17c0006eff14a2d9a00ed5f3a846148153899a0224e2c07da
     # via -r requirements.in
@@ -841,7 +841,7 @@ sphinxcontrib-serializinghtml==1.1.5 \
     --hash=sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd \
     --hash=sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952
     # via sphinx
-sqlparse==0.4.2 \
+sqlparse==0.4.4 \
     --hash=sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae \
     --hash=sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d
     # via django
@@ -863,7 +863,7 @@ typing-extensions==4.3.0 \
     # via
     #   -r requirements.in
     #   black
-urllib3==1.26.13 \
+urllib3==1.26.18 \
     --hash=sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc \
     --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
     # via
@@ -875,7 +875,7 @@ urlwait==1.0 \
     --hash=sha256:a9bf2da792fa6983fa93f6360108e16615066ab0f9cfb7f53e5faee5f5dffaac \
     --hash=sha256:eae2c20001efc915166cac79c04bac0088ad5787ec64b36f27afd2f359953b2b
     # via -r requirements.in
-werkzeug==2.2.2 \
+werkzeug==2.3.8 \
     --hash=sha256:7ea2d48322cc7c0f8b3a215ed73eabd7b5d75d0b50e31ab006286ccff9e00b8f \
     --hash=sha256:f979ab81f58d7318e064e99c4506445d60135ac5cd2e177a2de0089bfd4c9bd5
     # via -r requirements.in
@@ -899,3 +899,4 @@ zipp==3.11.0 \
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
