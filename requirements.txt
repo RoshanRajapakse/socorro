@@ -301,7 +301,7 @@ glom==23.1.1 \
     --hash=sha256:b6bef86c36dde4539b70fe096cf23dc4eb0b8b5df9e00df6d18dfe144d75f85e \
     --hash=sha256:b7442309e013feb6feab206197abf8aec32835ec709d8a92a8514322f64c0eff
     # via -r requirements.in
-gunicorn==20.1.0 \
+gunicorn==22.0.0 \
     --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
     --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
     # via -r requirements.in
@@ -841,7 +841,7 @@ sphinxcontrib-serializinghtml==1.1.5 \
     --hash=sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd \
     --hash=sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952
     # via sphinx
-sqlparse==0.4.2 \
+sqlparse==0.5.0 \
     --hash=sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae \
     --hash=sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d
     # via django
