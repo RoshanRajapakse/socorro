@@ -863,7 +863,7 @@ typing-extensions==4.3.0 \
     # via
     #   -r requirements.in
     #   black
-urllib3==1.26.13 \
+urllib3==1.26.19 \
     --hash=sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc \
     --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
     # via
