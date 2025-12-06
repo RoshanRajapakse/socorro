@@ -204,7 +204,7 @@ dj-database-url==1.2.0 \
     --hash=sha256:5c2993b91801c0f78a8b19e642b497b90831124cbade0c265900d4c1037b4730 \
     --hash=sha256:b23b15046cb38180e0c95207bcc90fe5e9dbde8eef16065907dd85cf4ca7036c
     # via -r requirements.in
-django==3.2.18 \
+django==4.2.27 \
     --hash=sha256:08208dfe892eb64fff073ca743b3b952311104f939e7f6dae954fe72dcc533ba \
     --hash=sha256:4d492d9024c7b3dfababf49f94511ab6a58e2c9c3c7207786f1ba4eb77750706
     # via
@@ -841,7 +841,7 @@ sphinxcontrib-serializinghtml==1.1.5 \
     --hash=sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd \
     --hash=sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952
     # via sphinx
-sqlparse==0.4.2 \
+sqlparse==0.5.4 \
     --hash=sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae \
     --hash=sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d
     # via django
@@ -875,7 +875,7 @@ urlwait==1.0 \
     --hash=sha256:a9bf2da792fa6983fa93f6360108e16615066ab0f9cfb7f53e5faee5f5dffaac \
     --hash=sha256:eae2c20001efc915166cac79c04bac0088ad5787ec64b36f27afd2f359953b2b
     # via -r requirements.in
-werkzeug==2.2.2 \
+werkzeug==3.1.4 \
     --hash=sha256:7ea2d48322cc7c0f8b3a215ed73eabd7b5d75d0b50e31ab006286ccff9e00b8f \
     --hash=sha256:f979ab81f58d7318e064e99c4506445d60135ac5cd2e177a2de0089bfd4c9bd5
     # via -r requirements.in
